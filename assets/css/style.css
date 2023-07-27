@@ -1,0 +1,579 @@
+@font-face {
+    font-family: 'Helvetica Neue', sans-serif;
+    src: url(../fonts/HelveticaWorld-Regular.ttf);
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 14px;
+    color: #000000;
+}
+
+
+
+header  {
+   padding: 20px 0px;
+   font-family: 'Helvetica Neue', sans-serif;
+   height:27px;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 27px;
+   color: #000000;
+   padding:10px 0px 40px 0px;
+   
+}
+
+
+header  {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+
+
+a {
+    text-decoration: none;
+    color:#3D3D3D;
+}
+a:hover {
+    color:#0052CC
+}
+
+a:hover {
+    text-decoration-color: #0052CC;
+    text-decoration: underline 3px solid #0052CC;
+}
+
+
+header ul img {
+    width:16px;
+}
+
+.Gogreen {
+    font-size: 26px;
+    line-height: 37px;
+    width:109px;
+    margin-left:30px;
+    margin-right: 200px;
+    font-family: 'Helvetica Neue', sans-serif;
+    
+}
+
+.contact {
+    margin-right: 200px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 250px;
+    margin-top: 450px;
+    
+}
+
+.section-1 img {
+    position: absolute;
+    top:-30px;
+    left: 200px;
+
+}
+
+.text {
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 200px;
+    top:-50px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+.text h1{
+    font-size: 44px;
+    width: 472px;
+    font-weight: 700;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    height:100px;
+    width:100px;
+    background-color: white;
+    animation-name: example;
+    animation-duration: 2s;
+
+}
+
+@keyframes example {
+    from {
+        background-color: white;
+    }
+    to {
+        background-color: #01601B;
+    }
+}
+
+.text p {
+    font-size: 20px;
+    width:380px;
+    margin-top: 30px;
+    line-height: 25px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    
+}
+
+.buttons {
+   margin-top: 430px;
+   display: flex;
+   gap:20px;
+   position:absolute;
+  right: 365px;
+  top:-50px;
+  
+ 
+  
+    
+}
+
+ button {
+    border-radius: 10px;
+    padding:15px 70px;
+    background: #01601B;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+
+.icons img {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right:-20px;
+    top:-210px;
+    width:25px;
+    cursor: pointer;
+} 
+
+.middle-icon {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-top: 100px;
+    font-family: 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+}
+
+.divs {
+    display: flex;
+    justify-content: space-between;
+   border:none;
+   padding: 10px 0px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   background-color: rgba(54, 121, 79, 0.55);
+   position: relative;
+   top: -3px;
+   cursor: pointer;
+   color:#FFFFFF;
+   font-family: 'Helvetica Neue', sans-serif;
+   width:368px;
+   left: 30px;
+}
+
+.divs:hover {
+    background-color:  #36794F;
+}
+
+
+
+.section-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+   margin-bottom: 60px
+}
+
+
+.section-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+
+
+
+
+.section-2 img,
+.section-3 img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.parent-2 {
+    position: relative;
+    top:0;
+    left: 0;
+    margin-top:50px;
+    margin-left: 30px;
+}
+
+
+
+
+.img-button button {
+    border-radius: 10px;
+    padding:15px 50px;
+    background: #FFFFFF;
+    color: #0F6845;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    font-family: 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left:80px;
+    top: 190px;
+    font-weight: 600;
+    opacity: 0;
+  transition: opacity .35s ease;
+  
+
+}
+
+
+.parent-2:hover .img-button button {
+  opacity: 1;
+}
+
+.see-more {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #01601B;
+    margin-left: 1382px;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+.content-1 {
+    box-shadow: 0px 2px 13px 1px rgba(209, 209, 209, 0.31);
+border-radius: 10px;
+}
+
+.content-1 img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.content-1 p {
+    width:640px;
+    line-height: 20px;
+    margin-top: 20px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+h3 {
+    font-size:  20px;
+    font-weight: 600;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+
+.section-4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.section-5 {
+    display: flex;
+    position: relative;
+    margin-top: 100px;
+    
+   
+}
+
+h4 {
+    font-size: 35px;
+    margin-left: 50px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+
+.section-5 .accessories-1 {
+    width:850px;
+    border-bottom-right-radius: 180px;
+   
+
+}
+
+.section-5 .accessories-2 {
+    position: absolute;
+    top:100px;
+    height: 350px;
+    right: 10px;
+   
+}
+
+
+
+.container {
+    position: relative;
+    
+   
+    
+   
+  }
+
+  .container .p-1 {
+    z-index: 100;
+  position: absolute;
+  color: black;
+  font-size: 18px;
+  left: -520px;
+  top: 180px;
+  width:440px;
+  line-height: 20px;
+  font-family: 'Helvetica Neue', sans-serif;
+
+  
+  }
+
+  .container .p-2 {
+    z-index: 100;
+  position: absolute;
+  color: black;
+  font-size: 18px;
+  left: -520px;
+  top: 270px;
+  width:440px;
+  line-height: 20px;
+  font-family: 'Helvetica Neue', sans-serif;
+  }
+
+
+
+.page-footer-2 {
+    margin-top: 100px;
+    border-top: 1px solid #255338;
+    height:300px;
+    background-color:#255338;
+    display: flex;
+    justify-content: space-around;
+    color:#FFFFFF;
+    font-family: 'Helvetica Neue', sans-serif;
+   
+}
+
+.gogreen {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#Email-input {
+    height: 30px;
+    width:240px;
+    border-radius: 8px;
+    background-color: transparent;
+    margin-top: 10px;
+    border-color: white;
+    
+}
+
+.footer-imgs img {
+    margin-top: 50px;
+    width:30px;
+    margin-right:10px;
+    cursor: pointer;
+}
+
+.footer-div-2,
+.footer-div-3,
+.footer-div-4 {
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.footer-div-2 ul li,
+.footer-div-3 ul li,
+.footer-div-4 ul li {
+    margin-bottom: 4px;
+   
+}
+
+.footer-div-2 .first-li,
+.footer-div-3 .first-li,
+.footer-div-4 .first-li {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.page-footer-3 {
+    background-color:#255338;
+    display: flex;
+    justify-content: flex-end;
+    color:#FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    gap:15px;
+    cursor: pointer;
+    padding: 20px 60px 20px 0px
+    
+
+}
+
+.parent {
+    position: relative;
+    top:0;
+    left: 0;
+    margin-top:50px;
+    margin-left: 30px;
+  
+    
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+  left: 0;
+  border: 1px solid #000000;
+  
+    
+
+}
+
+.image2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    top: 40px;
+    left: 500px;
+    color: #FFFFFF;
+   
+}
+
+.footer-icon-blocks {
+    position: absolute;
+    top:200px;
+    display: flex;
+    margin-left: 250px;
+    
+}
+
+.footer-icon-blocks img {
+margin-right: 400px;
+}
+
+.icons-desc {
+    display: flex;
+    position: absolute;
+    top:280px;
+    font-size: 24px;
+    font-weight: 600;
+    color:#FFFFFF;
+    margin-left: 220px;
+    
+}
+
+.emai {
+    margin-left: 300px;
+    margin-right: 220px;
+}
+
+.inputs-1,
+.inputs-2 {
+    display: flex;
+    position: absolute;
+
+}
+
+.inputs-1 {
+    top:500px;
+    left: 350px;
+
+}
+
+.inputs-2 {
+    top:600px;
+    left: 350px;
+
+}
+
+.inputs-1 div {
+    margin-right: 180px;
+    color:#FFFFFF;
+}
+
+.inputs-2 div {
+    margin-right: 180px;
+    color:#FFFFFF;
+}
+
+#input {
+    height: 30px;
+    width:250px;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+   
+}
+
+#textarea {
+    position: absolute;
+    top: 100px;
+    border-radius: 10px;
+    width:690px;
+    margin-top: 70px;
+
+}
+
+.text-area {
+    position: absolute;
+    top:154px;
+    color:#FFFFFF;
+   
+   
+}
+
+h6 {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.map {
+    border: 1px solid #01601B;
+    display: inline-block;
+    padding: 30px;
+    margin-left: 400px;
+    
+}
+
+
+
+
+
+
+
+
+
